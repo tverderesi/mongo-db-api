@@ -1,0 +1,119 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "edition": 1,
+    "pages": 180,
+    "isbn": "978-0743273565",
+    "type": "paperback",
+    "price": 9.99
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "edition": 1,
+    "pages": 324,
+    "isbn": "978-0446310789",
+    "type": "hardcover",
+    "price": 14.99
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "edition": 2,
+    "pages": 328,
+    "isbn": "978-0451524935",
+    "type": "paperback",
+    "price": 12.99
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "edition": 1,
+    "pages": 432,
+    "isbn": "978-0141439518",
+    "type": "paperback",
+    "price": 10.99
+  },
+  {
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "edition": 1,
+    "pages": 209,
+    "isbn": "978-0156907392",
+    "type": "hardcover",
+    "price": 16.99
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "edition": 1,
+    "pages": 277,
+    "isbn": "978-0316769488",
+    "type": "paperback",
+    "price": 11.99
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "edition": 1,
+    "pages": 720,
+    "isbn": "978-0142000083",
+    "type": "hardcover",
+    "price": 19.99
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "edition": 1,
+    "pages": 320,
+    "isbn": "978-0261103306",
+    "type": "paperback",
+    "price": 9.99
+  },
+  {
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "edition": 1,
+    "pages": 532,
+    "isbn": "978-0141441146",
+    "type": "paperback",
+    "price": 12.99
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "edition": 1,
+    "pages": 208,
+    "isbn": "978-0062315007",
+    "type": "paperback",
+    "price": 8.99
+  },
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "edition": 1,
+    "pages": 336,
+    "isbn": "978-0590353427",
+    "type": "hardcover",
+    "price": 17.99
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "edition": 1,
+    "pages": 288,
+    "isbn": "978-0060850524",
+    "type": "paperback",
+    "price": 10.99
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "edition": 1,
+    "pages": 1178,
+    "isbn": "978-0618640157",
+    "type": "hardcover",
+    "price": 24.99
+  }
+]

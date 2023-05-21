@@ -38,11 +38,13 @@ cd mongo-db-api
 npm install
 ```
 
-3. Setting up databse and collection on MongoDB. Use either mongosh or your mongodb favorite tool.
+3. Setting up database and collection on MongoDB. Use either mongosh or your mongodb favorite tool.
+
 3.1. switch to the bookstore database:
 ```
 use bookstore
 ```
+
 3.2. Seed it with example data contained on [seedData.json](./seedData.json)
 
 

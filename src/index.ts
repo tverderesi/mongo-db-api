@@ -13,7 +13,7 @@ require("dotenv").config();
 
 const port = process?.env?.PORT as string;
 const mongoURI = process?.env?.MONGO_URI as string;
-
+console.log(process.env);
 const app = express();
 const httpServer = http.createServer(app);
 
@@ -21,6 +21,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
+  introspection: true,
 });
 
 (async () => {
@@ -44,8 +45,8 @@ mongoose
   })
   .then(async () => {
     await new Promise<void>((resolve) =>
-      httpServer.listen({ port: 4000 }, resolve)
+      httpServer.listen({ port: port }, resolve)
     );
 
-    console.log(`🚀 Server ready at http://localhost:4000/`);
+    console.log(`🚀 Server ready at port ${port}`);
   });

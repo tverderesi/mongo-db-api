@@ -13,7 +13,7 @@ require("dotenv").config();
 
 const port = process?.env?.PORT as string;
 const mongoURI = process?.env?.MONGO_URI as string;
-console.log(process.env);
+
 const app = express();
 const httpServer = http.createServer(app);
 

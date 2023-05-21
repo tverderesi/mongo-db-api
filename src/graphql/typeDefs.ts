@@ -2,11 +2,11 @@ import { gql } from "graphql-tag";
 
 export const typeDefs = gql`
   enum BookTypeEnum {
-    HARDCOVER
-    PAPERBACK
-    EBOOK
-    AUDIOBOOK
-    OTHER
+    hardcover
+    paperback
+    ebook
+    audiobook
+    other
   }
 
   type Book {

@@ -10,7 +10,7 @@ const BookSchema = new mongoose.Schema({
   price: { type: Number },
   type: {
     type: String,
-    enum: ["Hardcover", "Paperback", "Ebook", "Audiobook", "Other"],
+    enum: ["hardcover", "paperback", "ebook", "audiobook", "other"],
   },
 });
 

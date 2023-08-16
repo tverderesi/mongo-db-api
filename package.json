@@ -20,7 +20,7 @@
     "graphql": "^16.6.0",
     "graphql-relay": "^0.10.0",
     "graphql-tag": "^2.12.6",
-    "mongoose": "^7.1.1"
+    "mongoose": "^7.3.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
